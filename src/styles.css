@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header and navigation styles */
+  nav {
+    background-color: #007bff;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #dfe2e8;
+  }
+  
+  /* Active link styling */
+  .active {
+    color: #ffc107;
+  }
+  
+  /* Page content styling */
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  /* Page container */
+  .container {
+    padding: 2em;
+    /* Add your background image below */
+    background-image: url('/public/water.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .page {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
+    padding: 2em;
+    /* Ensure the background of .page is above the image */
+    position: relative;
+  }
+  
+  /* Brief header styling */
+.brief-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #333; /* You can change the color if needed */
+    margin-bottom: 1em; /* Gives a little space after the header */
+  }
+  
+  /* Common text styling for brief */
+  .brief-common-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #333; /* You can change the color if needed */
+    line-height: 1.6; /* Adjust line spacing for better readability */
+    margin-bottom: 1em; /* Gives a little space after each paragraph */
+  }
+
+
+  .home-page-common-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #333; /* You can change the color if needed */
+    line-height: 1.6; /* Adjust line spacing for better readability */
+    margin-bottom: 1em; /* Gives a little space after each paragraph */
+  }
